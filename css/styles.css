@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap');
+
+/* Monitor de  1325px */
+body {margin: 0px;}
+header { 
+	height: 100px;
+}
+h2, h3 {color: #fff; margin: 0px 0px 0px 10px; font-family: 'Montserrat', sans-serif;}
+p {
+    color: #fff;
+	margin: 5px 10px 0px 10px;
+	display: grid;
+    font-family: 'Montserrat', sans-serif;
+}
+.caixa {
+	display: inline-block;
+    width: 400PX;
+    height: 200PX;
+    margin: 20px 0px 110px 25px;
+
+}
+.caixaTexto {
+	position: relative;
+    bottom: 4px;
+	background-color: #ff1620;
+	width: 400px;
+    height: 100px;
+
+}
+#quebra-de-linha {
+    border-bottom: solid thin #ff1620;
+    position: relative;
+    width: 1260px;
+    left: 25px;
+}
+#icon { 
+	position: relative;
+    left: 25px;
+    top: 20px;
+    width: 150px;
+    height: 65px; 
+}
+.imagem {
+	width: 400PX;
+    height: 200PX;
+}
+#busca { 
+    position: relative;
+    left: 980px;
+    bottom: 30px;
+    width: 306px;
+}
+#txtFiltro {
+    width: 230px;
+    height: 30px;
+    background-color: rgb(0, 0, 0, 0);
+    border: solid thin #ff1620;
+    border-radius: 15px;
+}
+#btnSearch {
+    height: 30px;
+    border: solid thin #ff1620;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 15px;
+}
+#pesquisa {    
+    padding: 0px 3px 0px 3px;
+    width: 10px; height: 10px;
+}
+/* Detalhes Series */
+
+.caixaSinopse {
+    background-color: babaca;
+    display: inline-block;
+    width: 400PX;
+    height: 200PX;
+    margin: 20px 0px 110px 25px;
+}
+#imagemSinopse {width: 800px;}
+#box {
+    position: relative;
+    height: 400px;
+    top: -404px;
+    left: 825px;
+    background-color: #e6e6e6;
+    width: 460px;
+}
+#innerbox {
+    position: relative;
+    height: 50px;
+    left: 25px;
+    top: -404px;
+    /* left: 0px; */
+    background-color: #ff1620;
+    width: 1260px;
+}
+ul {margin: 0px;}
+ul li { 
+    position: relative;
+    top: 15px;
+    display: inline-block; 
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+ }
+.textoFora {    padding: 10px 0px 10px 0px; color: #000;}
+#textoForm {color: #000; display: inline-block; padding: 0px 0px 10px 0px;}
+#textoBox{
+    position: absolute;
+    left: 835px;
+    TOP: 120PX;
+    display: grid;
+    justify-items: center;
+    font-family: 'Montserrat', sans-serif;
+}
+#textoBox2 {
+    position: relative;
+    top: 65px;
+    display: grid;
+    justify-items: center;
+    font-family: 'Montserrat', sans-serif;
+    width: 450px;
+}
+.dentroBox {color: #000;}
+#boxFora {
+    padding: 0px 0px 0px 40px;
+    position: relative;
+    bottom: 350px;
+}
+#boxFora2 {
+    padding: 0px 0px 0px 60px;
+    position: relative;
+    bottom: 350px;
+}
+#forms{padding: 15px 0px 0px 0px;}
+.EP {
+    color: #000;
+    display: inline-block;
+    width: 605px;
+    height: 220px;
+    position: relative;
+    bottom: 320px;
+    left: 60px;
+}
+.h2EP{padding: 10px 0px 10px 0px;}
+.b01{border-right: solid ;}
+#slcTemporadas {
+    width: 230px;
+    height: 30px;
+    background-color: rgb(0, 0, 0, 0);
+    border-radius: 5px;}
+
+/* Mediaqueries de 1024px */
+@media screen and (max-width: 1024px)
+{
+    #quebra-de-linha {
+        left: 90px;
+        width: 830px
+    }
+    #busca {left: 615px;}
+    .caixa {
+        position: relative; 
+        left: 65px;}
+    #icon {left: 85px;
+    }
+    #imagemSinopse {
+        position: relative; 
+        left: 65px;
+    }
+    #box{
+        left: 620px; 
+        width: 300px;
+    }
+    #innerbox{
+        width: 830px; 
+        left: 90px;
+    }
+    #textoBox {
+        left: 620px; 
+        font-size: 12px;
+    }
+    #textoBox2{width: 300px;}
+    .EP{
+        width: 400px; 
+        left: 110px;
+    }
+    #boxFora, #boxFora2{
+        width: 845px; 
+        left: 40px;
+    }
+
+}
+/* Mediaqueries de 360px */
+@media screen and (max-width: 400px)
+{
+    #busca {
+        top: 30px;
+        left: 62px;
+    }
+    #quebra-de-linha{
+        left: 12px; 
+        width: 398px;
+        top: 65PX;
+    }
+    .caixa {
+        position: relative; 
+        left: -12px; 
+        top: 80px;}
+    #icon{left: 135px;}
+    #imagemSinopse {
+        position: relative;
+        left: -14px;
+        width: 400px;
+        top: 65PX;
+    }
+    #box {
+        left: 11px;
+        width: 400px;
+        height: 150px;
+        top: -45px;
+    }
+    #textoBox {
+        left: 55px;
+        font-size: 12px;
+        top: 385px;
+    }
+    #textoBox2{top: -10px;}
+    #innerbox{
+        width: 400px; 
+        left: 11px; 
+        top: -45px;
+    }
+    #boxFora, #boxFora2 {
+        width: 400px;
+        left: -36px;
+        bottom: 35px;
+    }
+    .EP {
+        width: 400px;
+        padding: 0px 0px 40px;
+        left: 10px;
+        bottom: 3px;
+        border-right: none;
+        border-top: solid;
+    }
+}
+
+
+
+
